@@ -1,0 +1,61 @@
+/* VINSTAHS version 1.0 - SideBar Style */
+
+*{
+    user-select: none; 
+    -ms-user-select: none; 
+    -webkit-user-select: none; 
+}
+
+@media only screen and (min-width: 1px){
+    .sidebar{width: 73px;}
+    .button_container{width: 48px;}
+    #LOGOTYPE, .icon_button p , .icon_button span{display: none;} 
+} @media only screen and (min-width: 1250px){
+    .sidebar{width: 245px;}
+    .button_container{width: 220px;}
+    #LOGOTYPE, .icon_button p , .icon_button span{display: block;} 
+}
+
+.sidebar {
+    top:1px;
+    position: fixed;
+    background: #fff;
+    border-right: 1px solid #dbdbdb;
+}
+
+.logo_container {
+    margin: 5px 0px 19px;
+    padding: 25px 12px 16px;
+} .logo_item{
+    display: flex;
+} .logo_vector {
+    height: 27px;
+    margin-right: 10px;
+}
+
+.bar_content, .button_container{
+    display: flex;
+    flex-direction: column;
+} .bar_content {
+    transition: all 0.2s;
+    padding: 8px 0px;   
+}
+
+.button_container {
+    height: 86vh;
+    justify-content: space-between;
+} .icon_button {
+    gap: 16px;
+    cursor: pointer;
+    height: 55px;
+    margin: 8px 0px;
+    padding: 12px;
+    display: flex;
+    font-size: 16px;
+} .icon_button:hover {
+    border: 1px solid white;
+    background: rgb(247, 247, 247);
+    border-radius: 15px;
+} .icon_button img{
+    border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+/* VINSTAHS#SUGGESTION Component Style version 1.0*/
+#SUGGESTION p, #SUGGESTION span, #SUGGESTION button {
+    cursor: pointer;
+}
+
+#SUGGESTION p{
+    color:#8e8e8e;
+    font-size: 13px;
+} #SUGGESTION span{
+    font-size: 12px;
+    font-weight: 600;
+} #SUGGESTION button{
+    color: rgb(0, 149, 246);
+    font-weight: 500;
+    margin-right: 75px;
+} #BUTTON_SEE_ALL button{
+    color: black;
+    margin-right: 65px;
+}
+
+.suggestion_recomends img{
+    width: 32px;
+    border-radius: 50%;
+} .suggestion_profile img {
+    height: 56px;
+    border-radius: 50%;
+}
+.suggestion_line, .suggestion_informations{
+    gap: 16px;
+    margin: 4.7px 0px;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    margin-top: 25px;
+} footer p {
+    color: #c7c7c7;
+    font-size: 12px;
+    margin: 0px 65px 25px 0px;
+}

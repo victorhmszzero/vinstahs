@@ -1,0 +1,61 @@
+/* VINSTAHS version 1.0 - Layout Style */
+@media only screen and (min-width:1px){
+    .layout_responsive{ display:block; 
+    } .layout_deskop{ display: none; 
+    }
+} @media only screen and (min-width: 1085px) and (min-height: 627px)  {
+    .layout_responsive{ display: none; 
+    } .layout_deskop{ display: block;
+    } .deskop_container{ margin: 10px 10px 0px 88px;
+    } .desktop_content{
+        min-width: 480px;
+    }
+} @media only screen and (min-width: 1250px) and (min-height: 627px)  { 
+    .deskop_container{ margin: 10px 10px 0px 244px;
+    } .desktop_content{
+        min-width: 480px;
+    }
+}
+
+.deskop_container{
+    gap: 16px;
+    display: flex;
+} .deskop_center {
+    width: 40%;
+    margin: auto;
+} .desktop_content {
+    width: 200%;
+    max-width: 580px;
+} .component_fake{
+    padding-left: 380px;
+} .component_fixed{
+    padding: 20px;
+    position: fixed;
+}
+.layout_responsive{
+    margin-top: 26px;
+}.hidden{
+    color: rgba(1, 1, 1, 0)
+}
+.content_flex{
+    margin: 16px auto;
+    max-width: 563px;
+} .content_respons{
+    margin: 0px 10px 0px 82px;
+    max-width: 472px;
+} 
+
+.box{
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    background-color: #fff;
+} #STORY_DESKTOP, #STORY{
+    padding: 20px;
+    overflow-x: scroll;
+} #STORY_DESKTOP{
+    top: 26px;
+    width: 423px;
+} #SUGGESTION{
+    top: 150px;
+    width: 423px;
+} 

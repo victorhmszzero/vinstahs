@@ -1,0 +1,40 @@
+/* VINSTAHS version 1.0 - Story Style */
+.story{
+    gap: 6px;
+    display: flex;
+} .story img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.story_element{
+    margin: 0 auto;
+    min-width: 68px;
+}
+.story_element > p{
+    font-size: 12px;
+    text-overflow:ellipsis;
+    overflow: hidden; 
+    text-align: center;
+}
+.story_element > div{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    
+    background: linear-gradient( #c82d8e, #f99d4c);
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.story_element > span, .story_element{
+    cursor: pointer;
+    font-size: 13px;
+}
+#SEPERATOR{
+    color:white;
+    font-size: 32px;
+    user-select: none;
+}

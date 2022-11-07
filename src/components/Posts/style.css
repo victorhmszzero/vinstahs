@@ -1,0 +1,92 @@
+/* VINSTAHS version 1.0 - Posts Style */
+#POST {
+    margin: 16px 0px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+header,.post_title {
+    display: flex;
+    text-align: center;
+} header {
+    padding: 10px;
+    justify-content: space-between;
+} .post_title {
+    gap: 16px;
+    align-items: center;
+} .options_icon{
+    margin: auto 10px;
+} .post_title span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.simple_border img, .post_img{
+    border-top: 1px solid rgb(230, 228, 228);
+    border-bottom: 1px solid rgb(230, 228, 228);
+} .simple_border img, .story_border img{
+    border: 1px solid rgb(230, 228, 228);
+    height: 40px;
+    border-radius: 50%;
+} .story_border img {
+    border: 2px solid #fff;
+    margin-top: 2px;
+} .story_border{
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    background: linear-gradient( #c82d8e, #f99d4c);
+    align-items: center;
+    border-radius: 50%;
+}
+
+.post_img {
+    width: 100%;
+    object-fit: cover;
+    background: black;
+}
+
+.post_details {
+    padding: 10px 15px;
+} .post_buttons, .post_buttons div {
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+} .post_icon {
+    cursor: pointer;
+} .post_info_likes {
+    font-size: 15px;
+    margin-top: 6px;
+    font-weight: 500;
+} .liked button {
+    color: red;
+}
+
+.post_description {
+    margin: 6px 0px 3px;
+} .post_description p span {
+    font-weight: 500;
+} .post_time time {
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+.post_coment {
+    display: flex;
+    margin-top: 8px;
+    border-top: 1px solid #efefef;
+} .post_coment div {
+    gap: 16px;
+    flex: 1;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+} .post_coment div input {
+    width: 95%;
+    font-size: 16px;
+} .post_coment button {
+    color: #0095f6;
+    cursor: pointer;
+    margin: 0px 10px;
+}

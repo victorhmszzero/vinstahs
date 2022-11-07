@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    background: #F9813D;
+    margin: 0 auto;
+
+}
+.footer p {
+    font-size: 19px;
+}
+.footer span {
+    font-size: 23px;
+    
+
+}
+#pet_logo{
+    width: 250px;
+}
+.social_rede{
+    width: 36px;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.just_flex {
+    justify-content: space-between;
+}
+
+.footer div {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_link {
+    margin-left: 40px;
+}
+.footerBottom {
+    text-align: center;
+    padding: 10px;
+    background: #FB752A;
+}
+.footerBottom p{
+    color: rgb(255, 241, 214);
+
+}
