@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# VinstaHS
+Um projeto-clone baseado no *instagram*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![banner](/assets/Vinstahs.png)
 
-## Available Scripts
+- [Sobre este projeto](#sobre-este-projeto)
+- [Usando React App](#usando-o-react-app) 
 
-In the project directory, you can run:
+### Sobre este projeto
+Este projeto tem como objetivo fazer uma página clone do instagram focando no seu design e pratica da tecnologia **ReactJs**. 
 
-### `npm start`
+> É necessário que tudo pareça com a página principal do Instagram, então temos que ter posts, comentários, botões para curtir e comentar
+*- proposta por Gabriel Agusto -*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Foi ultilizado neste projeto:
+- **React-Js** - Manipulação do DOM, organização e execução de componentes;
+- **React-icons** - Consumo de biblioteca;
+- **Followers API** - GitHub;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usando o React App
 
-### `npm test`
+Este projeto foi bootstrapped com [Create React App](https://github.com/facebook/create-react-app).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Main Codes
+Você pode executar no diretorio do projeto:
 
-### `npm run build`
+#### `npm install`
+> Para instalar os modelos **node** e possibilitar um **react-start**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### `npm start`
+> Inicia o app em modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) pra visualizar em seu navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### `npm test`
+> Inicia o executor de teste na visualização interativa.\
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Veja o topico sobre: [Running tests](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
 
-### `npm run eject`
+#### `npm run build`
+> Cria o aplicativo para produção na pasta **build**.\
+Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Veja o topico sobre: [Deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `npm run eject`
+**Nota: esta é uma operação unidirecional. Depois de `ejetar`, você não pode voltar!**
+> Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `ejetar` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Conteudos relacionados
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React documentation](https://reactjs.org/).
+- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [The comand `npm run build` fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
