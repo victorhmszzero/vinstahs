@@ -1,10 +1,15 @@
-# VinstaHS
+# Vinstahs
 Um projeto-clone baseado no *instagram*
 
 ![banner](/assets/Vinstahs.png)
+<a href="https://vinstahs-victorhmszzero.vercel.app">
+  <img src="https://raw.githubusercontent.com/victorhmszzero/banners-images/main/assets/react-js.png" width="250">
+</a>
+
 
 - [Sobre este projeto](#sobre-este-projeto)
 - [Usando React App](#usando-o-react-app) 
+
 
 ### Sobre este projeto
 Este projeto tem como objetivo fazer uma página clone do instagram focando no seu design e pratica da tecnologia **ReactJs**. 
