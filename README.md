@@ -3,7 +3,7 @@ Um projeto-clone baseado no *instagram*
 
 ![banner](/assets/Vinstahs.png)
 <a href="https://vinstahs-victorhmszzero.vercel.app">
-  <img src="https://raw.githubusercontent.com/victorhmszzero/banners-images/main/assets/react-js.png" width="250">
+  <img src="https://raw.githubusercontent.com/victorhmszzero/banners-github/main/assets/react-js.png" width="250">
 </a>
 
 
